@@ -2,6 +2,7 @@ import os
 import re
 import logging
 import json
+import base64
 
 import pymorphy3
 
@@ -375,11 +376,21 @@ def get_recipe_author(strings):
     return author
 
 def get_recipe_image(file):
-    image = f'\images\{file.name}'.replace('.txt', '.jpeg')
-    logger.debug(
-        f'Получено изображение: {image}'
+    image = (
+        file.path[:-(len(file.name)+1)] +
+        f'/images/{file.name}'.replace('.txt', '.jpeg')
     )
-    return image
+    if os.path.isfile(image):
+        with open(image, 'rb') as image_file:
+            content = base64.standard_b64encode(image_file.read())
+        logger.debug(
+            f'Получено изображение: {image}'
+        )
+        return content
+    else:
+        logger.debug(
+            f'Файл не найден: {image}'
+        )
 
 def load_recipe(file_info):
     with open(file=file_info.path, encoding='utf-8') as file:
@@ -425,17 +436,17 @@ def wrap_list(list_to_wrap, key_field, reverse=-1):
     return list(wrap.values())
 
 def main():
-    data_recipes = load_dir(os.getcwd()+'\data')
+    data_recipes = load_dir(os.getcwd()+'/data')
     data_measurement_units = wrap_list(MEASUREMENT_UNITS, 'name')
     data_ingridients = wrap_list(INGRIDIENTS, 'name')
     data_tags = wrap_list(TAGS, 'slag')
-    with open(os.getcwd()+'\data\\recipes.json', 'w', encoding='utf8') as outfile:
+    with open(os.getcwd()+'/data/recipes.json', 'w', encoding='utf8') as outfile:
         json.dump(data_recipes, outfile, ensure_ascii=False, indent=4)
-    with open(os.getcwd()+'\data\\measurement_units.json', 'w', encoding='utf8') as outfile:
+    with open(os.getcwd()+'/data/measurement_units.json', 'w', encoding='utf8') as outfile:
         json.dump(data_measurement_units, outfile, ensure_ascii=False, indent=4)
-    with open(os.getcwd()+'\data\\ingridients.json', 'w', encoding='utf8') as outfile:
+    with open(os.getcwd()+'/data/ingridients.json', 'w', encoding='utf8') as outfile:
         json.dump(data_ingridients, outfile, ensure_ascii=False, indent=4)
-    with open(os.getcwd()+'\data\\tags.json', 'w', encoding='utf8') as outfile:
+    with open(os.getcwd()+'/data/tags.json', 'w', encoding='utf8') as outfile:
         json.dump(data_tags, outfile, ensure_ascii=False, indent=4)
 
 if __name__ == '__main__':

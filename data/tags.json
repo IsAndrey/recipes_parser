@@ -1,0 +1,46 @@
+[
+    {
+        "slag": "hot_meal",
+        "text": "Горячие блюда"
+    },
+    {
+        "slag": "mushroom",
+        "text": "Блюда из грибов"
+    },
+    {
+        "slag": "bakery",
+        "text": "Выпечка"
+    },
+    {
+        "slag": "dessert",
+        "text": "Десерт"
+    },
+    {
+        "slag": "hot_drinks",
+        "text": "Горячие напитки"
+    },
+    {
+        "slag": "cold_cuts",
+        "text": "Холодные закуски"
+    },
+    {
+        "slag": "salads",
+        "text": "Салаты"
+    },
+    {
+        "slag": "meat",
+        "text": "Блюда из мяса"
+    },
+    {
+        "slag": "cold_drinks",
+        "text": "Холодные напитки"
+    },
+    {
+        "slag": "chiken",
+        "text": "Блюда из курицы"
+    },
+    {
+        "slag": "fish",
+        "text": "Блюда из рыбы"
+    }
+]

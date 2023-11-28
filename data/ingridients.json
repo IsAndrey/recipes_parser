@@ -1,0 +1,390 @@
+[
+    {
+        "name": "перец",
+        "measurement_unit": "по вкусу"
+    },
+    {
+        "name": "соль",
+        "measurement_unit": "по вкусу"
+    },
+    {
+        "name": "масло оливковое",
+        "measurement_unit": "ложка"
+    },
+    {
+        "name": "укроп",
+        "measurement_unit": "по вкусу"
+    },
+    {
+        "name": "твёрдый сыр",
+        "measurement_unit": "грамм"
+    },
+    {
+        "name": "шампиньоны",
+        "measurement_unit": "грамм"
+    },
+    {
+        "name": "цедра лимона",
+        "measurement_unit": "ложка"
+    },
+    {
+        "name": "цедра апельсина",
+        "measurement_unit": "ложка"
+    },
+    {
+        "name": "анис",
+        "measurement_unit": "по вкусу"
+    },
+    {
+        "name": "имбирь",
+        "measurement_unit": "по вкусу"
+    },
+    {
+        "name": "гвоздика",
+        "measurement_unit": "по вкусу"
+    },
+    {
+        "name": "карданон",
+        "measurement_unit": "по вкусу"
+    },
+    {
+        "name": "разрыхлитель",
+        "measurement_unit": "на глаз"
+    },
+    {
+        "name": "ваниль",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "корица",
+        "measurement_unit": "ложка"
+    },
+    {
+        "name": "масло сливочное",
+        "measurement_unit": "грамм"
+    },
+    {
+        "name": "мука",
+        "measurement_unit": "ложка"
+    },
+    {
+        "name": "сахар",
+        "measurement_unit": "стакан"
+    },
+    {
+        "name": "какао",
+        "measurement_unit": "ложка"
+    },
+    {
+        "name": "яйцо",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "мёд",
+        "measurement_unit": "ложка"
+    },
+    {
+        "name": "бадьян",
+        "measurement_unit": "листик"
+    },
+    {
+        "name": "карданон на кончике ложки",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "мускат",
+        "measurement_unit": "по вкусу"
+    },
+    {
+        "name": "виноградный сок",
+        "measurement_unit": "литр"
+    },
+    {
+        "name": "половинка яблока",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "половинка апельсина",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "сок апельсиновый",
+        "measurement_unit": "стакан"
+    },
+    {
+        "name": "базилик",
+        "measurement_unit": "листик"
+    },
+    {
+        "name": "соус песто",
+        "measurement_unit": "ложка"
+    },
+    {
+        "name": "сыр моцарелла",
+        "measurement_unit": "грамм"
+    },
+    {
+        "name": "помидор",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "душистый перец",
+        "measurement_unit": "по вкусу"
+    },
+    {
+        "name": "сухая мята",
+        "measurement_unit": "ложка"
+    },
+    {
+        "name": "мандарин",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "вода",
+        "measurement_unit": "литр"
+    },
+    {
+        "name": "масло оливкововое",
+        "measurement_unit": "на глаз"
+    },
+    {
+        "name": "красное сухое вино",
+        "measurement_unit": "бутылка"
+    },
+    {
+        "name": "лук",
+        "measurement_unit": "головка"
+    },
+    {
+        "name": "говядина",
+        "measurement_unit": "килограмм"
+    },
+    {
+        "name": "сметана",
+        "measurement_unit": "стакан"
+    },
+    {
+        "name": "чеснок",
+        "measurement_unit": "долька"
+    },
+    {
+        "name": "куриное яйцо",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "сыр твёрдый",
+        "measurement_unit": "грамм"
+    },
+    {
+        "name": "ананас кусочками",
+        "measurement_unit": "банка"
+    },
+    {
+        "name": "горячее молоко",
+        "measurement_unit": "чашка"
+    },
+    {
+        "name": "посыпка",
+        "measurement_unit": "на глаз"
+    },
+    {
+        "name": "шоколад тёмный",
+        "measurement_unit": "плитка"
+    },
+    {
+        "name": "йогурт натуральный",
+        "measurement_unit": "ложка"
+    },
+    {
+        "name": "зёрна граната",
+        "measurement_unit": "стакан"
+    },
+    {
+        "name": "сыр с голубой плесенью",
+        "measurement_unit": "грамм"
+    },
+    {
+        "name": "груша",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "квашенная капуска",
+        "measurement_unit": "стакан"
+    },
+    {
+        "name": "солёный огурец",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "морковь",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "свекла",
+        "measurement_unit": "клубень"
+    },
+    {
+        "name": "картофель",
+        "measurement_unit": "клубень"
+    },
+    {
+        "name": "филе сельди слабого посола",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "масло подсолнечное",
+        "measurement_unit": "на глаз"
+    },
+    {
+        "name": "хороший антрекот",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "имбирный эль",
+        "measurement_unit": "литр"
+    },
+    {
+        "name": "сок лимона",
+        "measurement_unit": "ложка"
+    },
+    {
+        "name": "ежевика",
+        "measurement_unit": "стакан"
+    },
+    {
+        "name": "вишня без косточек",
+        "measurement_unit": "литр"
+    },
+    {
+        "name": "пшеничная мука",
+        "measurement_unit": "ложка"
+    },
+    {
+        "name": "молоко",
+        "measurement_unit": "стакан"
+    },
+    {
+        "name": "мята",
+        "measurement_unit": "листик"
+    },
+    {
+        "name": "салат",
+        "measurement_unit": "по вкусу"
+    },
+    {
+        "name": "половинка лайма",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "сыр козий",
+        "measurement_unit": "грамм"
+    },
+    {
+        "name": "персик",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "ананас шайбами",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "филе куриное",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "кипячёная вода",
+        "measurement_unit": "литр"
+    },
+    {
+        "name": "половинка лимона",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "свинина",
+        "measurement_unit": "грамм"
+    },
+    {
+        "name": "масло растительное",
+        "measurement_unit": "ложка"
+    },
+    {
+        "name": "лук репчатый",
+        "measurement_unit": "головка"
+    },
+    {
+        "name": "бульон куриный",
+        "measurement_unit": "стакан"
+    },
+    {
+        "name": "печень куриная",
+        "measurement_unit": "грамм"
+    },
+    {
+        "name": "20% сливки",
+        "measurement_unit": "стакан"
+    },
+    {
+        "name": "икра красная",
+        "measurement_unit": "грамм"
+    },
+    {
+        "name": "розмарин",
+        "measurement_unit": "по вкусу"
+    },
+    {
+        "name": "лимон",
+        "measurement_unit": "штука"
+    },
+    {
+        "name": "сёмга",
+        "measurement_unit": "стейк"
+    },
+    {
+        "name": "коньяк",
+        "measurement_unit": "ложка"
+    },
+    {
+        "name": "миндаль измельчённый",
+        "measurement_unit": "стакан"
+    },
+    {
+        "name": "шоколад",
+        "measurement_unit": "плитка"
+    },
+    {
+        "name": "яичный белок",
+        "measurement_unit": "стакан"
+    },
+    {
+        "name": "арахис",
+        "measurement_unit": "стакан"
+    },
+    {
+        "name": "пудра сахарная",
+        "measurement_unit": "стакан"
+    },
+    {
+        "name": "крем",
+        "measurement_unit": "грамм"
+    },
+    {
+        "name": "оливковое масло",
+        "measurement_unit": "ложка"
+    },
+    {
+        "name": "лимонный сок",
+        "measurement_unit": "ложка"
+    },
+    {
+        "name": "тёртый пармезан",
+        "measurement_unit": "ложка"
+    },
+    {
+        "name": "очищенные креветки",
+        "measurement_unit": "грамм"
+    },
+    {
+        "name": "авокадо",
+        "measurement_unit": "штука"
+    }
+]
