@@ -52,6 +52,16 @@ if __name__ == '__main__':
     )
 logger = logging.getLogger(__name__)
 
+def test_path(file_path):
+    if not os.path.isfile(file_path):
+        logger.debug(
+            f'Файл {file_path} не найден.' 
+        )
+        return False
+    logger.debug(
+        f'Найден файл {file_path}.'
+    )
+
 def normalize_word(word):
     p = MORPH_ANALYZER.parse(word)[0]
     try:
@@ -375,22 +385,21 @@ def get_recipe_author(strings):
     )
     return author
 
-def get_recipe_image(file):
-    image = (
-        file.path[:-(len(file.name)+1)] +
-        f'/images/{file.name}'.replace('.txt', '.jpeg')
+def get_recipe_image(recipe_file_info):
+    image_file_name = (
+        recipe_file_info.path[:-len(recipe_file_info.name)] +
+        'images/' +
+        recipe_file_info.name.replace('.txt', '.jpg')
     )
-    if os.path.isfile(image):
-        with open(image, 'rb') as image_file:
-            content = base64.standard_b64encode(image_file.read())
-        logger.debug(
-            f'Получено изображение: {image}'
-        )
-        return content
-    else:
-        logger.debug(
-            f'Файл не найден: {image}'
-        )
+    type_data_image = 'data:image/jpeg;base64,'
+
+    if os.path.isfile(image_file_name):
+        with open(image_file_name, 'rb') as image_file:
+            content = type_data_image+str(base64.standard_b64encode(image_file.read()))[2:-1]
+            return content
+    logger.debug(
+        f'Файл не найден: {image_file_name}'
+    )
 
 def load_recipe(file_info):
     with open(file=file_info.path, encoding='utf-8') as file:
@@ -451,3 +460,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+    with os.scandir(os.getcwd()+'/data/images') as file_list:
+        for file in file_list:
+            test_path(file.path)
